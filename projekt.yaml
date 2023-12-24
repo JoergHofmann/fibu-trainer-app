@@ -1,0 +1,31 @@
+---
+init:
+        impressum:
+                name: "beramí berufliche Integration e.V."
+                strasse: "Nibelungenplatz 3"
+                plz: "60318"
+                ort: "Frankfurt am Main"
+                mail: "kontakt(at)berami.de"
+                tel: "+49 69 91 30 10-0"
+                fax: "+49 69 91 30 10 33"
+                www: "www.berami.de"
+                register:
+                        bezeichnung: "Vereinsregister"
+                        eintrag: "VR 12725"
+                        gericht: "Amtsgericht Frankfurt am Main"
+                vertreter:
+                        - name: "Lagutova"
+                          vorname: "Irina"
+                        - name: "Ulrich"
+                          vorname: "Andrea"
+        inhalt:
+                Firma: "W+J-Ladenbau-OHG"
+                Gesellschafter:
+                        - name: "Orson W."
+                          einlage: "657.442,00"
+                        - name: "Curd J."
+                          einlage: "821.269,00"
+                Kontenrahmen: "SKR03"
+                Jahr: 2021
+                StartMonat: 5
+                ZahlMonate: 3
