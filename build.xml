@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project name="fibu-trainer">
+<project name="fibu-trainer-app">
 
 	<target name="prepare">
 		<property environment="env" />
@@ -11,9 +11,6 @@
 	</target>
 
 	<target name="html" depends="prepare" unless="done">
-		<delete includeemptydirs="true">
-			<fileset dir="${env.local_www_dir}/${ant.project.name}" includes="*" />
-		</delete>
 		<copy todir="0_TMP" >
 			<fileset dir=".">
 				<include name="*.md" />
@@ -30,36 +27,36 @@
 			<fileset dir="scripts/">
 				<include name="*.js" />
 			</fileset>
-			<fileset dir="formate/">
+			<fileset dir="css/">
 				<include name="*.css" />
 			</fileset>
 		</copy>
-		<exec executable="upp" dir="0_TMP/">
+		<exec executable="ypp" dir="0_TMP/">
 			<arg line="-l html5.lua -o ${ant.project.name}.js ${ant.project.name}.js" />
 		</exec>
-		<echo message="upp: start.md"/>
-		<exec executable="upp" dir="0_TMP/">
+		<echo message="ypp: start.md"/>
+		<exec executable="ypp" dir="0_TMP/">
 			<arg line="-l html5.lua -o start.md start.md" />
 		</exec>
 		<echo message="pandoc: start.md"/>
 		<exec executable="pandoc" dir="0_TMP/">
 			<arg line="start.md -t html -o start.html" />
 		</exec>
-		<echo message="upp: impressum.md"/>
-		<exec executable="upp" dir="0_TMP/">
+		<echo message="ypp: impressum.md"/>
+		<exec executable="ypp" dir="0_TMP/">
 			<arg line="-l html5.lua -o impressum.md impressum.md" />
 		</exec>
 		<echo message="pandoc: impressum.md"/>
 		<exec executable="pandoc" dir="0_TMP/">
 			<arg line="impressum.md -t html -o impressum.html" />
 		</exec>
-		<echo message="upp: liste.html"/>
-		<exec executable="upp" dir="0_TMP/">
+		<echo message="ypp: liste.html"/>
+		<exec executable="ypp" dir="0_TMP/">
 			<arg line="-l html5.lua -o liste.html liste.html" />
 		</exec>
-		<echo message="upp: index"/>
-		<exec executable="upp"  dir="0_TMP/">
-			<arg line="-l html5.lua -o index.html ${ant.project.name}-index.html" />
+		<echo message="ypp: index"/>
+		<exec executable="ypp"  dir="0_TMP/">
+			<arg line="-l html5.lua -o index.html index.html" />
 		</exec>
 		<copy file="dummy.html" tofile="${env.local_www_dir}/${ant.project.name}/dummy.html" />
 		<copy file="0_TMP/index.html" tofile="${env.local_www_dir}/${ant.project.name}/index.html" />

@@ -20,24 +20,24 @@
 	 </ul>
      </nav>
      <div id="logo">
-	 <img id="logo_image" src="bilder/$(DieseFirmaLogo)">
-	 <p>$(DieseFirmaName)<br />
-	 $(DieseFirmaStrasse)<br />
-	 $(DieseFirmaPLZ)&nbsp;$(DieseFirmaOrt)</p>
+	 <img id="logo_image" src="bilder/@(DieseFirmaLogo)">
+	 <p>@(DieseFirmaName)<br />
+	 @(DieseFirmaStrasse)<br />
+	 @(DieseFirmaPLZ)&nbsp;@(DieseFirmaOrt)</p>
      </div>
      
      <img id="titelbild" class="rechts" src="bilder/titelbild.png">
      
      <section id="start" class="links">
-	 $(include "start.html")
+	 @(include "start.html")
      </section>
     
      <section id="impressum" class="links" style="display: none">
-	 $(include "impressum.html")
+	 @(include "impressum.html")
      </section>
     
      <section id="liste" class="links" style="display: none">
-	 $(include "liste.html")
+	 @(include "liste.html")
      </section>
     
      <iframe
@@ -48,8 +48,8 @@
      </iframe>
     
      <footer>
-	 <p>&copy;&nbsp; $(AutorVorname)&nbsp;$(AutorNachname),&nbsp;$(Monat[heute.month].MMMM)&nbsp;$(heute.year)<br />
-	 GIT: $(GITAbrHash "")</p>
+	 <p>&copy;&nbsp; @(AutorVorname)&nbsp;@(AutorNachname),&nbsp;@(Monat[heute.month].MMMM)&nbsp;@(heute.year)<br />
+	 GIT: @(GITAbrHash "")</p>
      </footer>
   </body>
 </html>
