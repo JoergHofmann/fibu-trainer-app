@@ -15,7 +15,7 @@ body {
 	font-family:serif;
 	height: 100vh;
 	display: grid;
-	grid-template-rows: 40px 40px 1fr 70px;
+	grid-template-rows: 40px 1fr 40px;
 	grid-template-columns: 20% 20% 20% 20% 20%;
 }
 
@@ -24,7 +24,7 @@ body {
 	grid-row: 1 / 2;
 	height: 100%;
 	padding-left: 0.5em;
-	color: #F17F00;
+	background-color: #0089FF;
 }
 
 #logo {
@@ -35,6 +35,22 @@ body {
 	/* justify-self: center; */
 }
 
+#home_button {
+        margin-top: 5px;
+        float:left;
+	padding-right: 0.2em;
+	/*align-self: center;*/
+	/* justify-self: center; */
+}
+
+#home_button:hover {
+	cursor: pointer;
+}
+
+#home_button .mAktiv {
+   border-right: 3px solid red;
+}
+
 #logo_image {
 	float: left;
 	margin-right: 5px;
@@ -42,10 +58,7 @@ body {
 
 
 #MainMenu {
-	grid-column: 1 / 6;
-	grid-row: 2 / 3;
 	height: 100%;
-	border-bottom: 3px solid #F17F00;
 }
 
 #MainMenu ul {
@@ -58,9 +71,6 @@ body {
 	margin-right: 0.5em;
 	padding-left: 0.2em;
 	padding-right: 0.2em;
-	border-radius:0.3em;
-        background-color: #F17F00;
-	border: 1px solid black;
 	display: inline;
 }
 
@@ -70,7 +80,7 @@ body {
 }
 
 #MainMenu .mAktiv {
-   background-color: white;
+   border-bottom: 3px solid red;
 }
 
 #titelbild {
@@ -83,12 +93,12 @@ body {
 
 footer {
 	grid-column: 1/ 6;
-	grid-row:    4 / 5;
-	border-top: 3px solid #F17F00;
+	grid-row:    3 / 4;
+	background-color: #0089FF;
    }
 
 footer p {
-   padding-top: 0.5em;
+   padding-top: 5px;
    text-align:center;
    }
 
@@ -154,7 +164,7 @@ footer p {
 
 .links {
 	grid-column: 1 / 4;
-	grid-row:    3 / 4;
+	grid-row:    2 / 3;
 	overflow: scroll;
 	padding-right: 3rem 
 }
@@ -220,7 +230,7 @@ footer p {
 .rechts {
 	background-color: #F17F00;
 	grid-column: 4 / 6;
-	grid-row:    3 / 4;
+	grid-row:    2 / 3;
 	overflow: scroll;
 }
 

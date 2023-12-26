@@ -1,6 +1,3 @@
-:(AufgabeInit "")
-:(require "fibu-trainer")
-
 // Konstanten ========================================================================================= {**
 //
 var	Tag = [];
@@ -171,7 +168,7 @@ function init () { // {**
 	// Kontenrahmen zeigen/nicht zeigen
 	let kr = false;
 	// Hauptmenü einrichten
-	document.getElementById("mStart").addEventListener("click", mStart);
+	document.getElementById("home_button").addEventListener("click", mStart);
 	document.getElementById("mImpressum").addEventListener("click", mImpressum);
 	document.getElementById("mListe").addEventListener("click", mListe);
 //        document.getElementById("mHelp").addEventListener("click", KontenrahmenEinAus);
@@ -179,19 +176,19 @@ function init () { // {**
 //        document.getElementById("HideKr").addEventListener("click", KontenrahmenEinAus);
 	// eventlistener für die einzelnen Monate
 //	document.getElementById("mErgebnis").addEventListener("click", mErgebnis);
-        MenuAktiv = "mStart";
+        MenuAktiv = "home_button";
     }
 // **}
 
 //================== Hauptmenü ======================================== {**
 function mStart (){// {**
        document.getElementById(MenuAktiv).classList.toggle("mAktiv");
-       document.getElementById("mStart").classList.toggle("mAktiv");
+       document.getElementById("home_button").classList.toggle("mAktiv");
        document.getElementById("titelbild").style.display ="block";
        document.getElementById("start").style.display ="block";
        document.getElementById("impressum").style.display ="none";
        document.getElementById("liste").style.display ="none";
-       MenuAktiv = "mStart";
+       MenuAktiv = "home_button";
 //       ResetAll();
        }
 // **}

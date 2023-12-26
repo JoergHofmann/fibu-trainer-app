@@ -1,6 +1,6 @@
 # Impressum
 
-@(Firma.name)
+@(Firma.name)@(br)
 Inh: @(Autor.vorname) @(Autor.nachname)@(br)
 @(Firma.strasse)@(br)
 @(Firma.plz) @(Firma.ort)

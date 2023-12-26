@@ -15,7 +15,7 @@ DieseFirma:
   mobil: ""
   mail: ""
   www: ""
-  logo: ""
+  logo: "logo.png"
   bank1name: "Postbank Frankfurt"
   bank1iban: "DE56 5001 0060 0445 3228 75"
   bank1bic: "PBNKDEFFXXX"

@@ -55,6 +55,9 @@
                            <exclude name="impressum.html" />
                        </fileset>
 		</copy>
+		<copy todir="0_OUT">
+			<fileset dir="bilder" includes="*.ico" />
+		</copy>
 		<copy todir="0_OUT/bilder">
 			<fileset dir="bilder" includes="*.*" />
 		</copy>
