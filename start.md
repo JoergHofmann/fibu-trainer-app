@@ -33,7 +33,7 @@ Wenn sie die Übung wiederholen oder abbrechen wollen, klicken sie einfach auf [
 ## Hier stimmt was nicht!
 
 Nobody is perfect. Wenn sie Fragen zum Inhalt und/oder zur Bedienung haben, oder wenn sie einen Fehler gefunden haben, können sie mir gerne eine eMail schreiben:
-[info@pecunia-non-olet.com](mailto:info@pecunia-non-olet.com)
+[@(Firma.mail)](mailto:@(Firma.mail))
 
 ## Goethe, Frankfurt und die Buchführung
 
