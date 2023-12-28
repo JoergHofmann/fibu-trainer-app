@@ -3,25 +3,24 @@
   <head>
     <meta charset="utf-8">
     <meta name=viewport content="width=device-width, initial-scale=1">
-    <title>JhoFiBuTrainer</title>
+    <title>@(Projekt.title)</title>
     <!-- gegebenenfalls andere Elemente im Kopfbereich -->
-    <script src="scripts/loesung.js"></script>
     <script src="scripts/fibu-trainer-app.js"></script>
-    <link rel="stylesheet" href="css/fibu-trainer.css" />
+    <link rel="stylesheet" href="css/fibu-trainer-app.css" />
 
   </head>
   <body>
        <section id="titelzeile">
-            <img id="home_button" class="mAktiv" src="bilder/home.png">
             <nav id="MainMenu">
                  <ul>
-	              <li id = "mListe">[ Meine Aufgaben ]</li>
+	              <li id = "mStart" class="mAktiv">[ Home ]</li>
+	              <li id = "mListe">[ Aufgaben ]</li>
 	              <li id = "mImpressum">[ Impressum ]</li>
-	              <li id = "help">[ ? ]</li>
+	              <li id = "mHelp">[ ? ]</li>
 	         </ul>
             </nav>
        </section>
-     <img id="titelbild" class="rechts" src="bilder/titelbild.png">
+     <img id="titelbild" class="rechts" src="bilder/titelbild.png" />
      
      <section id="start" class="links">
 	 @include "start.html"
