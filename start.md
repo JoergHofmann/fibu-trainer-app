@@ -39,6 +39,14 @@ Ohne unseren Dichterfürsten ist Bildung in Deutschland schlicht unmöglich und 
 >"Welche Vorteile gewährt die doppelte Buchhaltung dem Kaufmanne! Es ist eine der schönsten Erfindungen des menschlichen Geistes, und ein jeder guter Haushalter sollte sie in seiner Wirtschaft einführen."@(br)
 [Johann Wolfgang von Goethe: Wilhelm Meisters Lehrjahre, 10. Kapitel](https://www.projekt-gutenberg.org/goethe/meisterl/titlepage.html)
 
+## Hä?
+
+Weniger bekannt ist, dass Goethe, als gebürtiger Frankfurter, seine Probleme mit dem Hochdeutschen hatte. Aber auch das ist natürlich keine Schwäche, sondern Ausdruck seines Genies, zeichnet sich doch die hessische Sprache durch Eleganz und Prägnanz aus. Und so ist auch "Hä?" im Hessischen ein vollständiger, grammatikalisch korrekter Satz und bedeutet:
+
+>Entschuldigen Sie bitte, ich habe Sie nicht verstanden, können Sie das bitte wiederholen?
+
+Sie bekommen, wenn sie auf *\[ Hä? \]* klicken, einen kurzen Hilfetext angezeigt.   
+
 Und nun wünsche ich ihnen viel Erfolg!
 
 ![](bilder/unterschrift_jho.gif)
