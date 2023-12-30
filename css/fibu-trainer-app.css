@@ -19,14 +19,24 @@ body {
 	grid-template-columns: 20% 20% 20% 20% 20%;
 }
 
-#titelzeile {
+header, footer {
+	grid-column: 1 / -1;
+	background-color: #0089FF;
+}
+
+footer p {
+   padding-top: 5px;
+   text-align:center;
+   }
+
+/* #titelzeile {
 	grid-column: 1 / 6;
 	grid-row: 1 / 2;
 	height: 100%;
 	padding-left: 0.5em;
 	background-color: #0089FF;
         display: inline;
-}
+} */
 
 #MainMenu {
 	height: 100%;
@@ -55,6 +65,7 @@ body {
 }
 
 #titelbild {
+        display: block;
 	justify-self: center;
 	align-self: center;
 	background-color: white;
@@ -62,16 +73,11 @@ body {
 	width: 70%;
    }
 
-footer {
+/* footer {
 	grid-column: 1/ 6;
 	grid-row:    3 / 4;
 	background-color: #0089FF;
-   }
-
-footer p {
-   padding-top: 5px;
-   text-align:center;
-   }
+   } */
 
 
 .InnerMenu {
@@ -199,7 +205,7 @@ footer p {
 
 
 .rechts {
-	background-color: #F17F00;
+	/* background-color: #F17F00; */
 	grid-column: 4 / 6;
 	grid-row:    2 / 3;
 	overflow: scroll;
