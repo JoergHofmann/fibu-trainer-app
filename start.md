@@ -26,7 +26,7 @@ Ohne unseren Dichterfürsten ist Bildung in Deutschland schlicht unmöglich und 
 
 ## Hä?
 
-Weniger bekannt ist, dass Goethe, als gebürtiger Frankfurter, seine Probleme mit dem Hochdeutschen hatte. Aber auch das ist natürlich keine Schwäche, sondern Ausdruck seines Genies, zeichnet sich doch die hessische Sprache durch Eleganz und Prägnanz aus. Und so ist auch "Hä?" im Hessischen ein vollständiger, grammatikalisch korrekter Satz und bedeutet:
+Weniger bekannt ist, dass Goethe, als gebürtiger Frankfurter, seine Probleme mit dem Hochdeutschen hatte. Aber auch das ist natürlich keine Schwäche, sondern Ausdruck seines Genies, zeichnet sich doch die hessische Sprache durch besondere Eleganz und Prägnanz aus. Und so ist auch "Hä?" im Hessischen ein vollständiger, grammatikalisch korrekter Satz und bedeutet:
 
 >Entschuldigen Sie bitte, ich habe Sie nicht verstanden, können Sie das bitte wiederholen?
 

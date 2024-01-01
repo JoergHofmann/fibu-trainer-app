@@ -117,7 +117,7 @@ function init () { // {**
 	document.getElementById("mStart").addEventListener("click", mStart);
 	document.getElementById("mImpressum").addEventListener("click", mImpressum);
 	document.getElementById("mListe").addEventListener("click", mListe);
-//        document.getElementById("mHelp").addEventListener("click", KontenrahmenEinAus);
+        document.getElementById("mHelp").addEventListener("click", mHelp);
 	// [x]-Button über dem Kontenrahmen
 //        document.getElementById("HideKr").addEventListener("click", KontenrahmenEinAus);
 	// eventlistener für die einzelnen Monate
@@ -134,6 +134,7 @@ function mStart (){// {**
        document.getElementById("start").style.display ="block";
        document.getElementById("impressum").style.display ="none";
        document.getElementById("liste").style.display ="none";
+       document.getElementById("help").style.display ="none";
        MenuAktiv = "mStart";
 //       ResetAll();
        }
@@ -146,6 +147,7 @@ function mStart (){// {**
        document.getElementById("start").style.display ="none";
        document.getElementById("impressum").style.display ="block";
        document.getElementById("liste").style.display ="none";
+       document.getElementById("help").style.display ="none";
        MenuAktiv = "mImpressum";
        }
 // **}
@@ -157,7 +159,20 @@ function mStart (){// {**
        document.getElementById("start").style.display ="none";
        document.getElementById("impressum").style.display ="none";
        document.getElementById("liste").style.display ="block";
+       document.getElementById("help").style.display ="none";
        MenuAktiv = "mListe";
+       }
+// **}
+
+    function mHelp (){// {**
+       document.getElementById(MenuAktiv).classList.toggle("mAktiv");
+       document.getElementById("mHelp").classList.toggle("mAktiv");
+       document.getElementById("titelbild").style.display ="block";
+       document.getElementById("start").style.display ="none";
+       document.getElementById("impressum").style.display ="none";
+       document.getElementById("liste").style.display ="none";
+       document.getElementById("help").style.display ="block";
+       MenuAktiv = "mHelp";
        }
 // **}
 // **} Hauptmenü
