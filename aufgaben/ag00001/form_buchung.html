@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	
+<form name='fFinanz' action="javascript: TesteFinanz('fFinanz', FinanzKonto)">
+
+	<table border="0" cellspacing="0" cellpadding="0" class="tabEingabe" >
+           <tr>
+              <td colspan="3">
+                <select size="1">
+                   <option value="0">--- Umsatzsteuer ---</option>
+                   <option value="keine">keine</option>
+                   <option value="vstv">Vorsteuer, voller Satz</option>
+                   <option value="vstm">Vorsteuer, verminderter Satz</option>
+                   <option value="ustv">Umsatzsteuer, voller Satz</option>
+                   <option value="ustm">Umsatzsteuer, verminderter Satz</option>
+                   <option value="euv">EU, voller Satz</option>
+                   <option value="eum">EU, verminderter Satz</option>
+                </select>
+              </td>
+              <td><div  id="FinanzenZeile0" class="AuswertungStart"></div></td>
+           </tr>
+	   <tr>
+	      <td style="border-bottom: 2px solid black">Konto</td>
+	      <td style="border-bottom: 2px solid black">Sollbetrag</td>
+	      <td style="border-bottom: 2px solid black">Habenbetrag</td>
+	   </tr>
+	   <tr>
+	      <td><input type="text" size="6"></td>
+	      <td style="padding-right: 5px"><input type="text" size="8" onBlur="AddiereSoll('fFinanz', AnzahlZeilen, AnzahlSpalten, 2)"></div></td>
+	      <td><input type="text" size="8" onBlur="AddiereHaben('fFinanz, AnzahlZeilen, AnzahlSpalten, 2)"></td>
+              <td><div  id="FinanzenZeile1" class="AuswertungStart"></div></td>
+	   </tr>
+	   <tr>
+	      <td><input type="text" size="6"></td>
+	      <td style="padding-right: 5px"><input type="text" size="8" onBlur="AddiereSoll('fFinanz', AnzahlZeilen, AnzahlSpalten, 2)"></div></td>
+	      <td><input type="text" size="8" onBlur="AddiereHaben('fFinanz', AnzahlZeilen, AnzahlSpalten, 2)"></td>
+              <td><div  id="FinanzenZeile2" class="AuswertungStart"></div></td>
+	   </tr>
+	   <tr>
+	      <td><input type="text" size="6"></td>
+	      <td style="padding-right: 5px"><input type="text" size="8" onBlur="AddiereSoll('fFinanz', AnzahlZeilen, AnzahlSpalten, 2)"></div></td>
+	      <td><input type="text" size="8" onBlur="AddiereHaben('fFinanz', AnzahlZeilen, AnzahlSpalten, 2)"></td>
+              <td><div  id="FinanzenZeile3" class="AuswertungStart"></div></td>
+	   </tr>
+	   <tr>
+	      <td><input type="text" size="6"></td>
+	      <td style="padding-right: 5px"><input type="text" size="8" onBlur="AddiereSoll(0, AnzahlZeilen, AnzahlSpalten, 2)"></div></td>
+	      <td><input type="text" size="8" onBlur="AddiereHaben('fFinanz', AnzahlZeilen, AnzahlSpalten, 2)"></td>
+              <td><div  id="FinanzenZeile4" class="AuswertungStart"></div></td>
+	   </tr>
+	   <tr>
+	      <td><input type="text" size="6"></td>
+	      <td style="padding-right: 5px"><input type="text" size="8" onBlur="AddiereSoll('fFinanz', AnzahlZeilen, AnzahlSpalten, 2)"></div></td>
+	      <td><input type="text" size="8" onBlur="AddiereHaben('fFinanz', AnzahlZeilen, AnzahlSpalten, 2)"></td>
+              <td><div  id="FinanzenZeile5" class="AuswertungStart"></div></td>
+	   </tr>
+	   <tr>
+	      <td><input type="text" size="6"></td>
+	      <td style="padding-right: 5px"><input type="text" size="8" onBlur="AddiereSoll('fFinanz', AnzahlZeilen, AnzahlSpalten, 2)"></div></td>
+	      <td><input type="text" size="8" onBlur="AddiereHaben('fFinanz', AnzahlZeilen, AnzahlSpalten, 2)"></td>
+              <td><div  id="FinanzenZeile6" class="AuswertungStart"></div></td>
+	   </tr>
+	   <tr>
+	      <td><input type="text" size="6"></td>
+	      <td style="padding-right: 5px"><input type="text" size="8" onBlur="AddiereSoll('fFinanz', AnzahlZeilen, AnzahlSpalten, 2)"></div></td>
+	      <td><input type="text" size="8" onBlur="AddiereHaben('fFinanz', AnzahlZeilen, AnzahlSpalten, 2)"></td>
+              <td><div  id="FinanzenZeile7" class="AuswertungStart"></div></td>
+	   </tr>
+	   <tr>
+	      <td><input type="text" size="6"></td>
+	      <td style="padding-right: 5px"><input type="text" size="8" onBlur="AddiereSoll('fFinanz', AnzahlZeilen, AnzahlSpalten, 2)"></div></td>
+	      <td><input type="text" size="8" onBlur="AddiereHaben('fFinanz', AnzahlZeilen, AnzahlSpalten, 2)"></td>
+              <td><div  id="FinanzenZeile8" class="AuswertungStart"></div></td>
+	   </tr>
+	   <tr>
+	      <td><input type="text" size="6"></td>
+	      <td style="padding-right: 5px"><input type="text" size="8" onBlur="AddiereSoll('fFinanz', AnzahlZeilen, AnzahlSpalten, 2)"></div></td>
+	      <td><input type="text" size="8" onBlur="AddiereHaben('fFinanz', AnzahlZeilen, AnzahlSpalten, 2)"></td>
+              <td><div  id="FinanzenZeile9" class="AuswertungStart"></div></td>
+	   </tr>
+	   <tr>
+	      <td><input type="text" size="6"></td>
+	      <td style="padding-right: 5px"><input type="text" size="8" onBlur="AddiereSoll('fFinanz', AnzahlZeilen, AnzahlSpalten, 2)"></div></td>
+	      <td><input type="text" size="8" onBlur="AddiereHaben('fFinanz', AnzahlZeilen, AnzahlSpalten, 2)"></td>
+              <td><div  id="FinanzenZeile10" class="AuswertungStart"></div></td>
+	   </tr>
+	   <tr>
+	      <td style="border-top: 2px solid black">&nbsp;</td>
+	      <td style="border-top: 2px solid black; padding-right: 5px"><input type="text" name = "SollSumme" size="8" readonly="readonly" /></td>
+	      <td style="border-top: 2px solid black"><input type="text" name = "HabenSumme" size="8" readonly="readonly" /></td>
+              <td><div  id="FinanzenZeileSumme" class="AuswertungStart"></div></td>
+	   </tr>
+           <tr>
+	</table>
+	</form>
+
+</body>
+</html>        
+

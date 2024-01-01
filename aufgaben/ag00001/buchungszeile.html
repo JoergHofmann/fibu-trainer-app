@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<meta charset="UTF-8">
+	<title>Buchungszeile</title>
+</head>
+<body>
+	<form>
+		<table style="border: solid black">
+			<tr>
+				<td>Datum</td>
+				<td>Beleg</td>
+				<td>Buchgstext</td>
+				<td>USt</td>
+			</tr>
+			<tr>
+				<td><input type="text" size="6"></td>
+				<td><input type="text" size="6"></td>
+				<td><input type="text" size="40"></td>
+				<td>
+					<select size="1">
+						<option value="0">--- Umsatzsteuer ---</option>
+                   				<option value="keine">keine</option>
+                   				<option value="vstv">Vorsteuer, voller Satz</option>
+                   				<option value="vstm">Vorsteuer, verminderter Satz</option>
+                   				<option value="ustv">Umsatzsteuer, voller Satz</option>
+                   				<option value="ustm">Umsatzsteuer, verminderter Satz</option>
+                   				<option value="euv">EU, voller Satz</option>
+                   				<option value="eum">EU, verminderter Satz</option>
+			                </select>
+				</td>
+			</tr>
+		</table>
+		<table>
+			<tr>
+				<td colspan="2">Soll</td>
+				<td colspan="2">Haben</td>
+			</tr>
+			<tr>
+				<td>Konto</td>
+				<td>Betrag</td>
+				<td>Konto</td>
+				<td>Betrag</td>
+			</tr>
+			<tr>
+				<td><input type="text" size="6"></td>
+				<td><input type="text" size="10"></td>
+				<td><input type="text" size="6"></td>
+				<td><input type="text" size="10"></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="text" size="10"></td>
+				<td></td>
+				<td><input type="text" size="10"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
